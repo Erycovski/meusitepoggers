@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+img {
+    max-width: 800px;
+}
+
+div {
+    text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+}
