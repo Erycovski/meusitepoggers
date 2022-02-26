@@ -34,7 +34,7 @@ body {
     
  }   
   
-div.principal > header > h1 {
+.principal {
     border-bottom: #302D40 solid;
     font-family: 'Kanit', sans-serif;
 
@@ -60,23 +60,19 @@ div.naveg {
     padding-bottom: 20px;
     background-color: var(--cor4);
     font-size: 28px;
+    
 }
 
-div.naveg > a {
+.a-naveg {
     color: rgb(58, 15, 22);
     padding: 10px;
     
 }
 
-div.naveg > a:hover {
+.a-naveg:hover {
       border-radius: 10px;
       padding: 10px;
       background: var(--cor3);
-}
-
-
-div.cab > a {
-    background-color: var(--cor1);
 }
 
 .social-media {
@@ -88,9 +84,8 @@ div.social-media {
     padding: 0px;
 }
 
-div.social-media > a > img {
+.social-media-icon {
     max-width: 40px;
-
 }
 
 div.spotify {
@@ -98,14 +93,14 @@ div.spotify {
     padding-bottom: 20px;
 }
 
-div.spotify > h1 {
-    padding-top: 20px;
-    padding-bottom: 25px;
-}
-
 section.spot {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+}
+
+.title-spot {
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 
 .descspot {
@@ -113,10 +108,14 @@ section.spot {
     max-width: 500px;
 }
 
-
 footer {
     text-align: center;
     padding-top: 40px;
+}
+
+.erycovsk-footer {
+    color: black;
+    text-decoration: none;
 }
 
 
