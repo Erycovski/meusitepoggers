@@ -21,3 +21,16 @@ th, td {
 table {
     margin: auto;
 }
+
+h1 {
+    text-align: center;
+    
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgba(69, 69, 216, 0.719);
+}
